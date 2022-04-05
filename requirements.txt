@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+sqlalchemy
+flask-marshmallow
+marshmallow-sqlalchemy
+pymysql
+gunicorn==19.9.0
+
