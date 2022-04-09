@@ -12,7 +12,6 @@ host='0.0.0.0'
 #host='localhost'
 port=5000
 
-
 # Connecting MYSQL Database
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://db_user:Pass123@localhost/restapi'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://db_user:Pass123@92.204.167.74/restapi'
@@ -135,4 +134,3 @@ if __name__ == "__main__":
     app.run(host=host, port=port,debug=True)
     #app.run()
     #test
-
